@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Locatracker</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="address">Address</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="map">MAP</string>
+    <string name="distance_0_metres">Distance: 0 metres</string>
+    <string name="distance_traveled">Distance: %s metres</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="distance_tracker">DISTANCE TRACKER</string>
+    <string name="alarm">ALARM</string>
+    <string name="MAP">MAP</string>
+    <string name="TRACKER">DISTANCE TRACKER</string>
+    <string name="e_mail">E-mail</string>
+    <string name="EMAIL">E-MAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up">SIGN-UP</string>
+    <string name="name">NAME</string>
+    <string name="locatracker">LOCATRACKER</string>
+    <string name="time_0s">Time: 0s</string>
+    <string name="distance_0_0_meters">Distance: 0.0 meters</string>
+    <string name="Start">Start</string>
+    <string name="Stop">Stop</string>
+    <string name="qr_scanner">QR-Scanner</string>
+    <string name="qrscanner">QR-Scanner</string>
+</resources>

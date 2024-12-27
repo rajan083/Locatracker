@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".distracker">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/latitude"
+        android:textSize="30sp"
+        android:id="@+id/tvlatitude"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/longitude"
+        android:textSize="30sp"
+        android:id="@+id/tvlongitude"
+        android:padding="10dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:textSize="30sp"
+        android:id="@+id/tvaddress"
+        android:padding="10dp"
+        android:gravity="center"
+        />
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/mapfragment"
+        android:layout_weight="1"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/distance_tracker"
+        android:textSize="22sp"
+        android:layout_gravity="end"
+        android:layout_marginTop="30sp"
+        android:id="@+id/distancetracker"
+
+        />
+
+</LinearLayout>

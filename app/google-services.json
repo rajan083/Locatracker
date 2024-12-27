@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "740392746515",
+    "project_id": "locatracker-45fce",
+    "storage_bucket": "locatracker-45fce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740392746515:android:c51a2351e8f58b18d1c9e6",
+        "android_client_info": {
+          "package_name": "com.example.locatracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz2CusaNJsy5SP8_SZbHcpVd6Sl4SgvNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
